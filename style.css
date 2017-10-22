@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,dl,dt,dd,img,table,thead,th,td{
+	margin:0;
+	padding:0;
+	font-weight:400;
+	font-family:Microsoft Yahei,"宋体",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#333;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	font-style:normal;
+	font-weight:400;
+	font-size:12px;
+}
+ul,li,ol{
+	list-style:none;
+}
+pre,form,fieldset,input,textarea,select,option,label{
+	padding:0;
+	margin:0;
+	font-style:normal;
+	font-weight:400;
+	font-size:12px;
+}
+span{
+	margin:0;
+	padding:0;
+}
+a,a:hover{
+	font-size:12px;
+	color:#333;
+	text-decoration:none;
+	outline:0 none ;
+}
+/*span,img{
+	display:block;
+}*/
+img{
+	border:none 0;
+	display:block;
+}
+table{
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+#colorTab{
+	margin:0 auto;
+	width:350px;
+	padding:10px;
+}
+#colorTab table{
+	border:1px solid #0058a3;
+	border-collapse:collapse;
+	background-color:#fff;
+}
+#colorTab td{
+	width:50px;
+	color:#000;
+	height:20px;
+	line-height:20px;
+	border:1px solid #0058a3;
+	text-align:center;
+	padding:5px 10px;
+	font-size:14px;
+}
+#colorTab tr.over{
+	background-color:#FFECBB;
+}
+/*#colorTab tr:nth-child(odd){
+	background-color:#FFF;
+}
+#colorTab tr:nth-child(even){
+	background-color:#FFECBB;
+}*/
